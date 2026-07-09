@@ -1,0 +1,39 @@
+name: Daily arXiv Digest
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 每天 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-arxiv
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取并生成当日摘要
+        run: python3 fetch_arxiv.py
+
+      - name: 提交
+        run: |
+          git config user.name "Ying Wang"
+          git config user.email "xingqiwang@gmail.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无改动，跳过提交"
+          else
+            git commit -m "arxiv digest $(date -u +%F)"
+            git push
+          fi

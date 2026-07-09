@@ -1,0 +1,63 @@
+site_name: "arXiv 每日摘要 / arXiv Daily Digest"
+site_description: "每天自动抓取图像复原、扩散模型、具身智能方向 arXiv 新论文，生成中文标注的摘要。"
+site_url: https://yingwang.github.io/arxiv-daily/
+repo_url: https://github.com/yingwang/arxiv-daily
+repo_name: yingwang/arxiv-daily
+
+docs_dir: docs
+site_dir: _site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+validation:
+  nav:
+    omitted_files: ignore
+  absolute_links: ignore
+  unrecognized_links: ignore
+
+nav:
+  - 最新: index.md
+  - 历史: archive.md
+
+copyright: |
+  Copyright &copy; 2026 Ying Wang · 数据来自 arXiv，遵循 arXiv API 使用条款
