@@ -28,9 +28,11 @@ TOPICS = [
         'OR abs:"image enhancement" OR abs:"compression artifact")',
     ),
     (
-        "扩散模型",
-        '(cat:cs.CV OR cat:cs.LG) AND (abs:"diffusion model" OR abs:"flow matching" '
-        'OR abs:"rectified flow")',
+        "大语言模型",
+        '(cat:cs.CL OR cat:cs.LG OR cat:cs.AI) AND (abs:"large language model" '
+        'OR abs:"large language models" OR abs:"LLM" OR abs:"instruction tuning" '
+        'OR abs:"in-context learning" OR abs:"chain-of-thought" '
+        'OR abs:"retrieval-augmented generation")',
     ),
     (
         "具身智能",
@@ -117,7 +119,7 @@ def build_digest(date_str: str) -> str:
     lines = [
         f"# arXiv 每日摘要 · {date_str}",
         "",
-        "> 自动抓取，方向：图像复原 / 低层视觉、扩散模型、具身智能。"
+        "> 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。"
         "数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。",
         "",
     ]

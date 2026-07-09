@@ -1,6 +1,6 @@
 # arXiv 每日摘要 · 2026-07-09
 
-> 自动抓取，方向：图像复原 / 低层视觉、扩散模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
+> 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
 ## 图像复原 / 低层视觉
 
@@ -39,91 +39,91 @@ Defocus blur degrades fine image structures and limits visual perception, which 
 
 In the Versatile Video Coding~(VVC) standard, adaptive loop filter~(ALF), including Geometry transformation-based Adaptive Loop Filter~(GALF) and Cross Component Adaptive Loop Filter~(CCALF), plays an essential role in reducing compression artifacts.
 
-## 扩散模型
+## 大语言模型
 
-### [Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF](http://arxiv.org/abs/2607.07693v1)
+### [Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning](http://arxiv.org/abs/2607.07708v1)
 
-- 作者：Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay
-- 提交：2026-07-08 · 分类 cs.LG · arXiv:2607.07693v1
+- 作者：Chen Tang, Yizhou Wang, Jianyu Wu, Lintao Wang, Shixiang Tang 等 29 人
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07708v1
 
-Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations.
+Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization.
 
-### [Guidance Breaks the Fitted Operator: A Terminal-Fitted Repair for Classifier-Free Guidance](http://arxiv.org/abs/2607.07665v1)
+### [Co-LMLM: Continuous-Query Limited Memory Language Models](http://arxiv.org/abs/2607.07707v1)
 
-- 作者：Shiheng Zhang
-- 提交：2026-07-08 · 分类 cs.LG · arXiv:2607.07665v1
+- 作者：Yair Feldman, Linxi Zhao, Nathan Godey, Dongyoung Go, Yilun Hua 等 8 人
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07707v1
 
-Classifier-free guidance (CFG) is the standard way to strengthen class-conditioning in diffusion and flow-matching samplers, yet at large guidance it oversaturates and destabilizes, symptoms practitioners suppress with more steps or limited-interval schedules.
+Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed.
 
-### [Stability of Flow Models for Graph Signals](http://arxiv.org/abs/2607.07510v1)
+### [From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization](http://arxiv.org/abs/2607.07702v1)
 
-- 作者：Martin Schmidt, Gonzalo Mateos
-- 提交：2026-07-08 · 分类 eess.SP · arXiv:2607.07510v1
+- 作者：Ying Chang, Jiahang Xu, Xuan Feng, Chenyuan Yang, Peng Cheng 等 6 人
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07702v1
 
-Generating signals on graphs requires permutation-equivariant models that exhibit stability with respect to relative structural perturbations. While favorable stability properties of Graph Neural Networks (GNNs) have been well documented, it is unclear how structural errors propagate through the dynamics of continuous…
+The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies.
 
-### [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](http://arxiv.org/abs/2607.07370v1)
+### [Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass](http://arxiv.org/abs/2607.07696v1)
 
-- 作者：Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng 等 18 人
-- 提交：2026-07-08 · 分类 cs.RO · arXiv:2607.07370v1
+- 作者：Victor Giannakouris, Immanuel Trummer
+- 提交：2026-07-08 · 分类 cs.DB · arXiv:2607.07696v1
 
-In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
+Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query execution and other driver layers that are not designed for bulk columnar analytics.
 
-### [DiPhon: Diffusion on Graphons for Scalable Graph Generation](http://arxiv.org/abs/2607.07232v1)
+### [SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents](http://arxiv.org/abs/2607.07676v1)
 
-- 作者：Sergio Rozada, Yiming Qin, Manuel Madeira, Pascal Frossard, Alejandro Ribeiro
-- 提交：2026-07-08 · 分类 stat.ML · arXiv:2607.07232v1
+- 作者：Tianming Sha, Yue Zhao, Lichao Sun, Yushun Dong
+- 提交：2026-07-08 · 分类 cs.AI · arXiv:2607.07676v1
 
-Diffusion models represent a leading paradigm for graph generation, with notable impact in domains such as molecular design. Yet, scaling these models to large graphs remains an open problem.
+Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable.
 
-### [DiffCVE: Diffusion-based Compressed Video Enhancement](http://arxiv.org/abs/2607.07195v1)
+### [MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models](http://arxiv.org/abs/2607.07673v1)
 
-- 作者：Wenqiang Xiao, Wenzhuo Ma, Junxi Zhang, Zhenzhong Chen
-- 提交：2026-07-08 · 分类 cs.CV · arXiv:2607.07195v1
+- 作者：Hyunjae Kim, Dain Kim, Pan Xiao, Serina S. Applebaum, Younjoon Chung 等 28 人
+- 提交：2026-07-08 · 分类 cs.CV · arXiv:2607.07673v1
 
-Perceptual quality enhancement of severely compressed videos remains challenging due to complex artifact patterns and substantial information loss. Recent diffusion models have demonstrated strong generative capability for visual restoration, but directly applying them to compressed video often ignores compression degr…
+Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data.
 
-### [Stage-Aware Adaptation and Distribution Calibration for Subject-Driven Personalized Text-to-Image Generation](http://arxiv.org/abs/2607.07173v1)
+### [Does Bielik Know What It Doesn't Know? Activation Dispersion Separates Entity Familiarity from Factual Reliability Across Model Scale](http://arxiv.org/abs/2607.07670v1)
 
-- 作者：Wenyan Xu, Alizer Wong
-- 提交：2026-07-08 · 分类 cs.CV · arXiv:2607.07173v1
+- 作者：Grzegorz Brzezinka
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07670v1
 
-Subject-driven personalized text-to-image generation requires a pretrained diffusion model to acquire a specific subject from a few reference images while preserving subject identity, following novel text prompts, and maintaining sample diversity.
+Large language models hallucinate most about entities they have never seen. We ask whether a model's activations betray entity familiarity before a single answer token is generated, and whether that signal predicts the factual reliability of the answers.
 
-### [ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching](http://arxiv.org/abs/2607.07119v1)
+### [DiaLLM: An Investigation into the Robustness-Generation Gap in English Dialect Adaptation](http://arxiv.org/abs/2607.07669v1)
 
-- 作者：Yuhang He, Kai Zhang, Xiaoming Li, Du Chen, Jian Yang
-- 提交：2026-07-08 · 分类 cs.CV · arXiv:2607.07119v1
+- 作者：Jordan Painter, Dipankar Srirag, Adarsh Kappiyath, Diptesh Kanojia, Aditya Joshi 等 6 人
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07669v1
 
-Color transfer aims to align the color distribution of a source image with that of a reference image while preserving structural and semantic consistency. However, existing methods often suffer from inaccurate global mapping, semantic misalignment, and visual artifacts.
+Large language models increasingly \emph{understand} dialectal English, yet still \emph{produce} only standard, US-leaning English, leaving dialectal generation, the harder half of the problem, largely unaddressed.
 
-### [An Hybrid Quantum-Classical Diffusion Model for Image Generation](http://arxiv.org/abs/2607.07072v1)
+### [Future Confidence Distillation in Large Language Models](http://arxiv.org/abs/2607.07626v1)
 
-- 作者：Qipeng Qian, Keli Deng, Yuntao Qian
-- 提交：2026-07-08 · 分类 cs.LG · arXiv:2607.07072v1
+- 作者：Sahil Kale
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07626v1
 
-Quantum diffusion models provide a physics-consistent route to generative learning by formulating noising and denoising directly on quantum states. However, applying such models to classical high-dimensional data is constrained by the qubit cost of state encoding and the computational burden of simulating large density…
+Reliable confidence estimation is essential for deploying large language models (LLMs) in confidence-aware systems, where downstream decisions such as retrieval, tool use, and adaptive computation depend on accurately estimating answer reliability.
 
-### [Latent graph encoding of multimodal neuroimaging features with generative AI architectures](http://arxiv.org/abs/2607.07027v1)
+### [CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis](http://arxiv.org/abs/2607.07601v1)
 
-- 作者：Ishaan Batta, Meenu Ajith, Vince Calhoun
-- 提交：2026-07-08 · 分类 cs.LG · arXiv:2607.07027v1
+- 作者：Kaicong Huang, Meng Ma, Ruimin Ke
+- 提交：2026-07-08 · 分类 cs.RO · arXiv:2607.07601v1
 
-While generative models enable encoding of complex neuroimaging data for feature generation and reconstruction, developing optimal architectural frameworks with appropriate encoding and latent space processes is crucial for studying structural and functional properties of the brain.
+Safety evaluation for autonomous driving is dominated by rare, safety-critical interactions, motivating simulators that can deliberately synthesize corner cases with photorealistic observations.
 
-### [Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation](http://arxiv.org/abs/2607.06957v1)
+### [Think Big, Search Small: Where Capacity Matters in Hierarchical Search Agents?](http://arxiv.org/abs/2607.07548v1)
 
-- 作者：Seulbin Hwang, Kiyoung Om, Daejung Kim, Jinhan Lee
-- 提交：2026-07-08 · 分类 cs.RO · arXiv:2607.06957v1
+- 作者：Qinnan Cai, Yibo Zhao, Xiang Li
+- 提交：2026-07-08 · 分类 cs.CL · arXiv:2607.07548v1
 
-Realistic and diverse traffic simulation is essential to autonomous driving development. Yet prevailing benchmarks predominantly reward realism, and recent methods have optimized accordingly, leaving diversity underexplored.
+Large language model based search agents increasingly adopt multi-agent architectures in which a main agent decomposes a complex question into sub-queries and dispatches them to parallel sub-agents.
 
-### [Geometric Collapse: When Vision Models Fail to Verify Physical Causality](http://arxiv.org/abs/2607.06871v1)
+### [A Unified Detection Framework for AI-Related Content and Artifacts](http://arxiv.org/abs/2607.07527v1)
 
-- 作者：Wentao Zhang, Jinhu Qi, Weiqiang Jin, Yifei Zhang, Chan-Tong Lam 等 6 人
-- 提交：2026-07-08 · 分类 cs.CV · arXiv:2607.06871v1
+- 作者：Xifeng Zhang, Tao Hu, Yijie Peng, Wan Tian
+- 提交：2026-07-08 · 分类 stat.ML · arXiv:2607.07527v1
 
-Recent progress in large-scale self-supervised learning has improved dense geometric prediction, but it remains unclear whether such scaling yields inference-time physical plausibility checks.
+Artificial intelligence (AI) is a double-edged sword: while it has achieved remarkable success across a wide range of domains, its deployment also calls for effective oversight and regulation, for which the detection of AI-related content and artifacts is perhaps the most direct and cost-effective approach.
 
 ## 具身智能
 
@@ -154,6 +154,13 @@ We present EmbodiedGen V2, a generative 3D world engine for building executable 
 - 提交：2026-07-08 · 分类 cs.MA · arXiv:2607.07403v1
 
 Vision Language Models (VLMs) and Vision Language Action (VLA) models have shown promise in robotic control. Yet, they face significant challenges regarding explainability, generalization, and compute requirements.
+
+### [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](http://arxiv.org/abs/2607.07370v1)
+
+- 作者：Xufeng Zhao, Fuzhi Yang, Jianhui Chen, Li Gao, Zhang Meng 等 18 人
+- 提交：2026-07-08 · 分类 cs.RO · arXiv:2607.07370v1
+
+In embodied intelligence systems, the motion controller serves as the critical bridge between semantic reasoning and physical execution. Humanoid control has progressed rapidly through large-scale human motion-capture data and motion-tracking paradigm.
 
 ### [TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation](http://arxiv.org/abs/2607.07287v1)
 
@@ -203,13 +210,6 @@ Interactive simulators have become powerful tools for training embodied agents a
 - 提交：2026-07-07 · 分类 cs.RO · arXiv:2607.06678v1
 
 How can pretrained Vision-Language-Action (VLA) models retain long-horizon visual histories with high-frequency updates without sacrificing efficiency? Existing approaches rely on external memory management, which restrains either the memory horizon or the reactiveness of pretrained policies.
-
-### [Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation](http://arxiv.org/abs/2607.06564v1)
-
-- 作者：Jiaming Liu, Qingpo Wuwu, Nuowei Han, Hao Chen, Zhuoyang Liu 等 11 人
-- 提交：2026-07-07 · 分类 cs.RO · arXiv:2607.06564v1
-
-Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning.
 
 ---
 
