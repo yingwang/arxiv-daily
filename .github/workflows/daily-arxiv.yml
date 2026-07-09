@@ -22,11 +22,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
 
       - name: 抓取并生成当日摘要
         run: python3 fetch_arxiv.py
 
-      - name: 提交
+      - name: 提交到 main
         run: |
           git config user.name "Ying Wang"
           git config user.email "xingqiwang@gmail.com"
@@ -37,3 +38,8 @@ jobs:
             git commit -m "arxiv digest $(date -u +%F)"
             git push
           fi
+
+      - name: 安装 mkdocs 并部署 Pages
+        run: |
+          pip install -r requirements.txt
+          mkdocs gh-deploy --force
