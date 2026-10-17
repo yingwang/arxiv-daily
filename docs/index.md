@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-10-16
+# arXiv 每日摘要 · 2026-10-17
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -38,27 +38,6 @@ Real-world video denoising for communication systems must handle mixed degradati
 - 提交：2026-10-15 · 分类 cs.CV · arXiv:2610.21202v1
 
 High-resolution synthesis with Latent Diffusion Models (LDMs) faces a fundamental trade-off between computational cost and generative fidelity. This trade off is largely governed by the latent compression factor f (e.g. f8 denotes f=8 and f32 f=32).
-
-### [VascuSR: Iterative Anatomy-Aware Diffusion for CT Super-Resolution](http://arxiv.org/abs/2610.20509v1)
-
-- 作者：Hairong Ni, Jiahe Huang, Minghao Guo, Wojciech Matusik, Rose Yu
-- 提交：2026-10-14 · 分类 cs.CV · arXiv:2610.20509v1
-
-Generative super-resolution (SR) can recover sharp detail in computed tomography (CT) images from severely downsampled observations, but the missing high-frequency content is not uniquely determined by the low-resolution input.
-
-### [Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration](http://arxiv.org/abs/2610.20384v1)
-
-- 作者：Xu Zhang, Jun Wan, Lefei Zhang, Liangpei Zhang
-- 提交：2026-10-14 · 分类 cs.CV · arXiv:2610.20384v1
-
-Agents for mixed-degradation image restoration typically learn what a tool does to an image only after running it: failed calls waste computation and harmful outputs go unnoticed until too late. We propose PreActIR, an agentic restoration framework that predicts tool consequences before execution.
-
-### [Physics-Shaped, Not Physical: Auditing Physics-Guided Underwater Image Restoration](http://arxiv.org/abs/2610.19763v1)
-
-- 作者：Mochamad Rizal Fauzan, Irgi Surya
-- 提交：2026-10-14 · 分类 cs.CV · arXiv:2610.19763v1
-
-Physics-guided networks for underwater image restoration predict transmission and backscatter and invert the image-formation model, yet rarely test whether this physics does any work.
 
 ## 大语言模型
 
@@ -234,4 +213,4 @@ Scaling robot manipulation models requires large amounts of interaction data, ye
 
 ---
 
-本期共收录 32 篇。
+本期共收录 29 篇。
