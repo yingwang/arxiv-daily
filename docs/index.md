@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-10-23
+# arXiv 每日摘要 · 2026-10-24
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -31,34 +31,6 @@ Multibeam imaging sonar produces intensity images degraded by coherent speckle a
 - 提交：2026-10-22 · 分类 cs.CV · arXiv:2610.31222v1
 
 Low-light image enhancement (LLIE) aims to recover well-exposed and perceptually faithful images from severely degraded observations. Recent diffusion-based generative methods achieve strong perceptual quality by leveraging powerful image priors, but their iterative sampling incurs substantial computational cost, limit…
-
-### [Training-free Acceleration for Blind Compressed Image Restoration via Activation-Calibrated Singular Value Decomposition](http://arxiv.org/abs/2610.29959v2)
-
-- 作者：Suhang Yao, Xin Li, Xijun Wang, Yufei Wang, Yeying Jin 等 6 人
-- 提交：2026-10-21 · 分类 cs.CV · arXiv:2610.29959v2
-
-Transformer-based models achieve strong performance on blind compressed image restoration (CIR) under unknown compression settings, but their densely stacked projection operators make deployment costly. We study training-free acceleration for such models through an empirical, operator-level analysis.
-
-### [Rethinking Underwater Image Enhancement: Learning through Text-Guided Degradation Curriculum](http://arxiv.org/abs/2610.29569v2)
-
-- 作者：Hongri Tian, Wenxue Li, Tian Ye, Sixiang Chen, Zongxian Su 等 10 人
-- 提交：2026-10-21 · 分类 cs.CV · arXiv:2610.29569v2
-
-Existing paired clean-degraded datasets have advanced learning-based underwater image enhancement, but they remain either limited in scale or difficult to acquire, and still fail to adequately cover the diverse degradations encountered in real-world underwater environments.
-
-### [WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration](http://arxiv.org/abs/2610.29108v1)
-
-- 作者：Trong Nhan Nguyen, Vu Hoang Minh Doan, Thanh Dat Le, Truong Tien Vo, Thi Thu Ha Vu 等 9 人
-- 提交：2026-10-21 · 分类 cs.CV · arXiv:2610.29108v1
-
-Blind all-in-one image restoration must adapt a shared model to heterogeneous and sometimes mixed degradations without a task label at test time. We introduce WaFIR, a decoder module that decomposes features into Haar subbands, summarizes each subband with a compact Fourier descriptor, and routes it to prompt-condition…
-
-### [Diffusion Posterior Sampling with Uncertain Forward Models](http://arxiv.org/abs/2610.29102v1)
-
-- 作者：Wentao Shangguan, Vivek K Goyal
-- 提交：2026-10-21 · 分类 cs.CV · arXiv:2610.29102v1
-
-Diffusion posterior samplers reconstruct signals by combining a pretrained diffusion prior with a measurement likelihood specified by a forward model and a noise model. Calibration and reference data can characterize uncertainty in the forward model's parameters, such as blur kernels or detector responses.
 
 ## 大语言模型
 
@@ -234,4 +206,4 @@ Robust manipulation of soft objects, such as garments, is a critical skill for s
 
 ---
 
-本期共收录 32 篇。
+本期共收录 28 篇。
