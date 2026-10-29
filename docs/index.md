@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-10-28
+# arXiv 每日摘要 · 2026-10-29
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -24,41 +24,6 @@ This paper unifies six decades of image modeling, evolving from handcrafted math
 - 提交：2026-10-27 · 分类 cs.CV · arXiv:2610.36487v1
 
 Scanning Transmission Electron Microscopy (STEM) enables the observation of atomic arrangements at sub-angstrom resolution and plays a key role in the discovery and characterization of advanced materials. Raw STEM images are often noisy and blurred due to multiple degradations.
-
-### [HiFiPix: Bringing High-Fidelity Real-World Super-Resolution Back to Pixel Space](http://arxiv.org/abs/2610.35515v1)
-
-- 作者：Wenjie Li, Du Chen, Hui Wang, Linlong Fan, Youwei Lv 等 11 人
-- 提交：2026-10-26 · 分类 cs.CV · arXiv:2610.35515v1
-
-Diffusion-based real-world image super-resolution suffers from limited reconstruction fidelity due to information loss in VAE-based latent representations. Recently, pixel-space diffusion models offer a promising high-faithfulness alternative by avoiding latent compression, but adapting them to Real-ISR remains challen…
-
-### [Toward Clinical Translation of Deep Learning-Based Intracranial Super-Resolution 4D Flow MRI Using Multi-Cohort Transfer Learning](http://arxiv.org/abs/2610.35396v1)
-
-- 作者：Oliver Welin Odeback, Susanne Schnell, Patrick Winter, Johan Lundberg, Fredrik Piehl 等 8 人
-- 提交：2026-10-26 · 分类 cs.CV · arXiv:2610.35396v1
-
-We evaluated synthetic pretraining and multi-cohort transfer learning for deep learning-based super-resolution of intracranial 4D Flow MRI across heterogeneous neurologic cohorts.
-
-### [Shared-Factor-Conditioned Diffusion for Low-Rank Tensor Recovery](http://arxiv.org/abs/2610.35368v1)
-
-- 作者：Zhengyun Cheng, Guanwen Zhang, Wei Zhou
-- 提交：2026-10-26 · 分类 cs.CV · arXiv:2610.35368v1
-
-Tensor recovery spans heterogeneous data structures and observation processes, calling for a representation that can adapt across modalities and tasks. We propose DiffTR, an unsupervised framework that unifies tensor completion, denoising, and hyperspectral super-resolution through coordinate-conditioned diffusion.
-
-### [Decoding Motion-Blurred QR Codes: Motion-Parameter Error Tolerance and Model-Based Recovery](http://arxiv.org/abs/2610.34788v1)
-
-- 作者：Zhi Zeng, Qiaochen Su, Si Xiong, Yaoqi Wang, Yufei Cai 等 7 人
-- 提交：2026-10-26 · 分类 eess.IV · arXiv:2610.34788v1
-
-Quick Response (QR) code deblurring must ultimately recover the encoded payload, yet how accurately the underlying camera motion must be estimated remains an open question.
-
-### [From Sentinel-2 to 1-m Imagery: Real-World $\times 10$ Cross-Sensor Super-Resolution via Visual Autoregressive Modeling](http://arxiv.org/abs/2610.34742v1)
-
-- 作者：Tailai Chen, Yuluxin Fu, Jie Deng, Shu Luo, Yanan Wu 等 6 人
-- 提交：2026-10-26 · 分类 cs.CV · arXiv:2610.34742v1
-
-Reconstructing 1-m imagery from Sentinel-2 combines two difficulties. The input and the reference are observed by different satellites, which differ in spatial resolution, spectral response, radiometry, acquisition time, and local geometry, so no synthetic degradation operator links them.
 
 ## 大语言模型
 
@@ -234,4 +199,4 @@ Learning controllable world dynamics from heterogeneous interaction videos is ch
 
 ---
 
-本期共收录 32 篇。
+本期共收录 27 篇。
