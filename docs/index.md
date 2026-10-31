@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-10-30
+# arXiv 每日摘要 · 2026-10-31
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -31,27 +31,6 @@ Although low-dose, sparse-view, and limited-angle CT involve distinct degradatio
 - 提交：2026-10-29 · 分类 cs.CV · arXiv:2610.39183v1
 
 Underwater image enhancement aims to correct color and recover detail degraded by wavelength-dependent attenuation, scattering, and noise. Paired-reference supervision constrains output similarity, but does not by itself specify the color mapping, the strength of local detail corrections, or consistency with the degrad…
-
-### [UnMixMamba: Unmixing Guided State Space Subpixel Mapping of Crops from MODIS Time Series](http://arxiv.org/abs/2610.38507v1)
-
-- 作者：Motasem Alkayid, Yimin Zhu, Naser El-Sheimy, Lincoln Linlin Xu
-- 提交：2026-10-28 · 分类 cs.CV · arXiv:2610.38507v1
-
-Subpixel mapping (SPM) of crop types from \SI{250}{m} Moderate Resolution Imaging Spectroradiometer (MODIS) time series to field-scale Agriculture and Agri-Food Canada (AAFC) labels supports acreage estimation and agricultural monitoring.
-
-### [Residual Motion Splatting for Continuous Space-Time Video Super-Resolution](http://arxiv.org/abs/2610.38499v1)
-
-- 作者：Vincent Herfeld, Eva Coupet{é}, Julien Mairal, Jean Ponce
-- 提交：2026-10-28 · 分类 cs.CV · arXiv:2610.38499v1
-
-Continuous space-time video super-resolution produces a high-resolution, highframe-rate video from a low-resolution, low-frame-rate one at arbitrary spatial scales and temporal instants.
-
-### [What Does LOL Measure? Hidden Label Shifts in Low-Light Enhancement Benchmarks](http://arxiv.org/abs/2610.38121v1)
-
-- 作者：Adityan Thirumani Srinivasan
-- 提交：2026-10-28 · 分类 cs.CV · arXiv:2610.38121v1
-
-LOL-v1 and LOLv2-Real are the standard benchmarks for supervised low-light image enhancement, and several leading methods ship hand-set test-time adjustments with their evaluation scripts.
 
 ## 大语言模型
 
@@ -227,4 +206,4 @@ Vision-Language-Action (VLA) models excel at instruction following, yet most rem
 
 ---
 
-本期共收录 31 篇。
+本期共收录 28 篇。
