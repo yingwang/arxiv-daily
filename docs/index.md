@@ -1,8 +1,29 @@
-# arXiv 每日摘要 · 2026-11-05
+# arXiv 每日摘要 · 2026-11-06
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
 ## 图像复原 / 低层视觉
+
+### [CoGenRec: A Unified Generative Framework for Complementary Vision Reconstruction](http://arxiv.org/abs/2611.07665v1)
+
+- 作者：Yapeng Meng, Yuguo Chen, Xiangru Chen, Shaojun Xu, Xuezhen Wang 等 10 人
+- 提交：2026-11-05 · 分类 cs.CV · arXiv:2611.07665v1
+
+Capturing scenes with extreme motion and high dynamic range is fundamentally constrained by trade-offs among temporal resolution, spatial detail, signal-to-noise ratio, and dynamic range under practical bandwidth, power, and quantum-efficiency limits.
+
+### [OptIMerge: Optimization-Based Merging of Diffusion Models](http://arxiv.org/abs/2611.07543v1)
+
+- 作者：Viraj Shah, Ashwini Pokle, Peyman Milanfar, Mauricio Delbracio, Hossein Talebi
+- 提交：2026-11-05 · 分类 cs.CV · arXiv:2611.07543v1
+
+The arithmetic merging of weights from multiple task-specific models fine-tuned from a shared base model, commonly known as model souping, has emerged as a popular strategy for multi-task learning without the computational overhead of joint retraining.
+
+### [FreePath: Neural Mean Free Path for Image Dehazing](http://arxiv.org/abs/2611.07398v1)
+
+- 作者：Rongrong Gao, Jingxuan Feng, Wenyu Xu
+- 提交：2026-11-05 · 分类 cs.CV · arXiv:2611.07398v1
+
+Single image dehazing requires recovering scene radiance from visual responses that are weakened and veiled by participating media. Existing methods either invert explicit scattering variables, which can be unstable under complex scenes, or learn direct restoration mappings, which often discard the physical organizatio…
 
 ### [PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories](http://arxiv.org/abs/2611.06870v1)
 
@@ -32,198 +53,177 @@ Universal image restoration aims to handle diverse degradations within a single 
 
 Recent pansharpening models achieve strong fusion performance on trained sensors, yet often generalize poorly to unseen sensors. Existing cross-sensor adaptation is limited by target-sensor retraining, which requires target-sensor training pairs and a dedicated training stage, and by per-image zero-shot adaptation, whi…
 
-### [From Natural Images to Medical Scans: Transferability of Diffusion Models for Medical Image Generation](http://arxiv.org/abs/2611.05192v1)
-
-- 作者：Efthymios Georgiou, Ioannis Kakogeorgiou, Sarah Brüningk
-- 提交：2026-11-03 · 分类 cs.CV · arXiv:2611.05192v1
-
-Transfer learning from natural images is standard in supervised and increasingly adopted in self-supervised medical image analysis, but its role in generative modelling, and in particular diffusion denoisers, remains underexplored.
-
-### [Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop](http://arxiv.org/abs/2611.04268v1)
-
-- 作者：Zhuoran Zheng,  Doubao
-- 提交：2026-11-03 · 分类 cs.CV · arXiv:2611.04268v1
-
-Can an LLM directly edit the weights of a diffusion-based image-restoration model to \emph{improve} restoration quality---without gradients, paired data, or fine-tuning? Recent experiments show frontier LLMs can fix structural bugs by modifying as little as \(0.016\%\) of parameters, but cannot instill new capabilities…
-
-### [CHROMA-MILL: Joint Low-Light Enhancement and White Balance under Colored Illumination](http://arxiv.org/abs/2611.04092v1)
-
-- 作者：Pol Riubrogent-Comas, David Serrano-Lozano, Maria Pilligua, Michael S. Brown, Ramon Baldrich 等 6 人
-- 提交：2026-11-03 · 分类 cs.CV · arXiv:2611.04092v1
-
-Capturing an image in a low-light environment produces a weak, noisy sensor signal. Low-light image enhancement (LLIE) aims to restore it. Auto white balance (AWB) is also required for every image, and the same noisy signal degrades its ability to infer the scene illuminant.
-
 ## 大语言模型
 
-### [A Framework for Context Enrichment and Selective Robustness in LLM Social Agents](http://arxiv.org/abs/2611.06914v1)
+### [SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization](http://arxiv.org/abs/2611.08483v1)
 
-- 作者：Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel
-- 提交：2026-11-04 · 分类 cs.MA · arXiv:2611.06914v1
+- 作者：Qile Jiang, George Em Karniadakis
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08483v1
 
-Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions.
+LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods.
 
-### [BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)
+### [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](http://arxiv.org/abs/2611.08433v1)
 
-- 作者：Fei Lin, Tengchao Zhang, Ziyang Gong, Xiaotong Yu, Bohan Zhang 等 18 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06911v1
+- 作者：Donghua Zhang, Zizheng Wang, Ze Dong, Yiding Feng, Siyu Qian
+- 提交：2026-11-05 · 分类 cs.CL · arXiv:2611.08433v1
 
-Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints.
+LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another pe…
 
-### [Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure](http://arxiv.org/abs/2611.06888v1)
+### [The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](http://arxiv.org/abs/2611.08428v1)
 
-- 作者：Siyi Yu
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06888v1
+- 作者：Julian Kunkel, Ali Doosthosseini
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08428v1
 
-Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations.
+Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it.
 
-### [SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification](http://arxiv.org/abs/2611.06876v1)
+### [Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks](http://arxiv.org/abs/2611.08417v1)
 
-- 作者：Yulu An, Yifei Feng, Xiangyang Yin
-- 提交：2026-11-04 · 分类 cs.CL · arXiv:2611.06876v1
+- 作者：E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher Ré
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08417v1
 
-LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency.
+Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale.
 
-### [On Turn-Level Best-of-N Sampling for Scaling LLM Agents](http://arxiv.org/abs/2611.06868v1)
+### [StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning](http://arxiv.org/abs/2611.08403v1)
 
-- 作者：Jalaj Bhandari, Dhawal Gupta, Hongli Zhan, Zhenting Wang, Varad Pimpalkhute 等 8 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06868v1
+- 作者：Yang Ouyang, Jung-Eun Kim
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08403v1
 
-In this work, we evaluate a simple inference-time scaling approach based on \textit{turn-level best-of-N sampling} (\method) for large language model (LLM) agents on complex, long-horizon tasks.
+Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget.
 
-### [CompressionBench: How can your coding agents compress LLMs?](http://arxiv.org/abs/2611.06858v1)
+### [FedReason: Large Language Models as Weight-Space Meta-Aggregators for Heterogeneous Federated Learning](http://arxiv.org/abs/2611.08383v1)
 
-- 作者：Xinrui Zhong, Zhifeng Li, Zhiming Wang, Yongqi Liu, Shanglin Yang 等 9 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06858v1
+- 作者：Ali Mohammadi Ruzbahani, Abbas Yazdinejad, Hadis Karimipour
+- 提交：2026-11-05 · 分类 cs.CR · arXiv:2611.08383v1
 
-Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously.
+Federated learning servers combine client models with a fixed aggregation rule, and each rule in common use is designed for one kind of heterogeneity. We study whether a large language model (LLM) that inspects the client models can choose the rule itself, without any training on the server.
 
-### [Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs](http://arxiv.org/abs/2611.06848v1)
+### [StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference](http://arxiv.org/abs/2611.08363v1)
 
-- 作者：Austin C. Kozlowski, Avital Mintz, Madison Lee
-- 提交：2026-11-04 · 分类 cs.CL · arXiv:2611.06848v1
+- 作者：Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah
+- 提交：2026-11-05 · 分类 cs.LG · arXiv:2611.08363v1
 
-Common methods for monitoring features in large language models (LLMs) such as linear probes and sparse autoencoders (SAEs) assume that features maintain a consistent representation across contexts.
+Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation.
 
-### [ServerBench: How can your coding agents design specialized LLM serving systems?](http://arxiv.org/abs/2611.06841v1)
+### [Cultural Adaptation within Repeated Social Interactions](http://arxiv.org/abs/2611.08334v1)
 
-- 作者：Xinrui Zhong, Zhiming Wang, Yongqi Liu, Zhaohui Wang, Shanglin Yang 等 8 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06841v1
+- 作者：Chen Cecilia Liu, Roi Reichart, Anna Korhonen
+- 提交：2026-11-05 · 分类 cs.CL · arXiv:2611.08334v1
 
-Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation.
+Much of human culture is tacit and is typically learned through situated social interaction. As LLMs are deployed as interactive agents across diverse communities, assessing their cultural competence demands moving beyond existing question-answering approaches, shifting from what they know to how they adapt.
 
-### [Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants](http://arxiv.org/abs/2611.06839v1)
+### [Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](http://arxiv.org/abs/2611.08315v1)
 
-- 作者：Peidi Dong, Yunze Xiao, Yu-Lin Tsai, Yichen Zheng, Heyuan Huang 等 8 人
-- 提交：2026-11-04 · 分类 cs.CL · arXiv:2611.06839v1
+- 作者：Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08315v1
 
-Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly.
+Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear.
 
-### [Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token](http://arxiv.org/abs/2611.06837v1)
+### [LLM-Assisted Label Noise Correction for EEG-Based Sleep Stage Classification](http://arxiv.org/abs/2611.08311v1)
 
-- 作者：Tommy He, Thomas Jiralerspong
-- 提交：2026-11-04 · 分类 cs.LG · arXiv:2611.06837v1
+- 作者：Elmira Salari, Shruti Kshirsagar
+- 提交：2026-11-05 · 分类 cs.CL · arXiv:2611.08311v1
 
-Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization.
+Automatic sleep stage classification from electroencephalography (EEG) signals is a critical task in clinical sleep medicine. While deep learning models have shown promising results in this domain, their performance is fundamentally constrained by the quality of training labels, which human experts manually annotate an…
 
-### [SAUCE: Summary Analysis Using Conversation Entailment](http://arxiv.org/abs/2611.06812v1)
+### [RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines](http://arxiv.org/abs/2611.08308v1)
 
-- 作者：Man-Ling Sung, Hemanth Kandula, Jeff Ma, William Hartmann, Matthew Snover
-- 提交：2026-11-04 · 分类 cs.CL · arXiv:2611.06812v1
+- 作者：Roko Parac, Christos Ziakas, Leo Ardon, Alessandra Russo
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08308v1
 
-With the growing need for evaluating Large Language Models (LLMs) and their applications to speech, challenges persist in summarizing and evaluating conversations that lack a clear end goal. We introduce SAUCE -- a reference-free, fact-based evaluation pipeline for cross-lingual conversational speech summarization.
+Reward machines (RMs) have been proposed as a reward formulation in reinforcement learning (RL) to capture non-Markovian tasks where credit assignment depends on history.
 
-### [LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting](http://arxiv.org/abs/2611.06808v1)
+### [AutoCompress: Automated Hardware-Guided Model Compression](http://arxiv.org/abs/2611.08290v1)
 
-- 作者：Lingfei Qian, Yan Wang, Xueqing Peng, Yupeng Cao, Yuechen Jiang 等 15 人
-- 提交：2026-11-04 · 分类 cs.CL · arXiv:2611.06808v1
+- 作者：Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan, Sharath Turuvekere Sreenivas, Ashwath Aithal 等 7 人
+- 提交：2026-11-05 · 分类 cs.LG · arXiv:2611.08290v1
 
-Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a past date.
+LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits.
 
 ## 具身智能
 
-### [PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World](http://arxiv.org/abs/2611.06768v1)
+### [OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](http://arxiv.org/abs/2611.08462v1)
 
-- 作者：Qiang Wang, Jianxin Bi, Shulong Jiang, Ruiyang Si, Wenbo Huang 等 10 人
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06768v1
+- 作者：Arpit Bahety, Skand Peri, Sriniket Ambatipudi, Chen Xu, Haruki Nishimura 等 7 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08462v1
 
-Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction.
+Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from failures by directly associating corrective actions with the observat…
 
-### [Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation](http://arxiv.org/abs/2611.06724v1)
+### [Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing](http://arxiv.org/abs/2611.08425v1)
 
-- 作者：Ji Pei
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06724v1
+- 作者：Michal P. Podolinsky, Yunhao Yang, Daniel Little, Hong Lu, Rohan Siva 等 9 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08425v1
 
-Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately.
+Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people.
 
-### [Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs](http://arxiv.org/abs/2611.06710v1)
+### [T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models](http://arxiv.org/abs/2611.08413v1)
 
-- 作者：Muhammad Danish Waseem, Ahmed Ali-Eldin Hassan
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06710v1
+- 作者：Mohammed Hassan, Zhenyang Chen, Zheng Wang, Zhixin Zhu, Tianlong Chen 等 8 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08413v1
 
-Vision-language-action (VLA) models map camera observations and language instructions to robot actions. However, their large backbones and repeated action generation can make inference take longer than the robot's real-time requirements for its next action.
+Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual tokens, often across multiple cameras, leading to substantial computation while allowing irrelevant background content to distract action prediction under distribution…
 
-### [Interactive World Simulation with Cosmos for Physical AI](http://arxiv.org/abs/2611.06627v1)
+### [SLA: Scaling Spatial-Language-Action Model via Continual Pre-training](http://arxiv.org/abs/2611.08373v1)
 
-- 作者： NVIDIA,  :, Anis Ahmad, Jon Allen, Malik Aqeel Anwar 等 90 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06627v1
+- 作者：Fuhao Li, Wenxuan Song, Qizhou Huang, Ziyang Zhou, Jingbo Wang 等 10 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08373v1
 
-We present a shared framework that adapts Cosmos world foundation models for real-time interactive world simulation in Physical AI. By streaming visual observations in response to actions and scene controls, the framework enables users and embodied agents to interact with evolving virtual environments.
+Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adapta…
 
-### [Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile Manipulation](http://arxiv.org/abs/2611.06475v1)
+### [GPWM: Modeling the World as 3D Particle Motion](http://arxiv.org/abs/2611.08338v1)
 
-- 作者：Sihang Chen, Chen Ye, Wei Chen, Xiaohan Lei, Zhipeng Tang 等 11 人
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06475v1
+- 作者：Robert Ren, Matthew Bronars, He Zhu, Yikai Tang, Jianing Zhang 等 8 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08338v1
 
-In the real world, mobile manipulation robots must perform complex object interactions and make multi-step decisions, often relying on task-relevant information that is no longer observable. However, existing benchmarks provide limited evaluation of such memory-dependent decision-making in mobile manipulation.
+We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space.
 
-### [$A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation](http://arxiv.org/abs/2611.06447v1)
+### [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](http://arxiv.org/abs/2611.08318v1)
 
-- 作者：Shengzhe Zhang, Qi Zhang, Dazhong Shen, Chao Wang, Shaopeng Zhai 等 6 人
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06447v1
+- 作者：Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni 等 13 人
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.08318v1
 
-Vision-Language-Action Models (VLAs) enable robots to perform manipulation tasks by leveraging Vision-Language Models (VLMs) to process visual observations and language instructions.
+Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE).
 
-### [EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking](http://arxiv.org/abs/2611.06434v1)
+### [RoboARCade: Benchmarking Agentic Robot Control](http://arxiv.org/abs/2611.08209v1)
 
-- 作者：Jintao Li, Zhiyong Cao, Baihua Xiao, Yu Bai, Börje F. Karlsson
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06434v1
+- 作者：Satvik Sharma, Hengyuan Hu, Mihika Kamat, Dorsa Sadigh, Jeannette Bohg
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08209v1
 
-Active embodied question answering requires agents to acquire evidence through viewpoint changes and physical interaction. The central challenge is to avoid undirected interaction: taking plausible actions without specifying what evidence they should reveal for answering the question.
+Improvements in multi-modal capabilities have enabled agents to act directly as robot policies, a setting we refer to as agentic robot control (ARC). We introduce RoboARCade, a benchmark of long-horizon manipulation tasks across three embodiments designed to test in-context adaptation, memory, and reasoning for precise…
 
-### [Can Astra Solve RoboMME without Breaking the Bank?](http://arxiv.org/abs/2611.06184v1)
+### [La-JEPA: Compact Robot Policies with Latent World Modeling](http://arxiv.org/abs/2611.08156v1)
 
-- 作者：Bingao Chen, Haoquan Fang, C. Karen Liu
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.06184v1
+- 作者：Mateo Clémente, George Z. Xue, Amin Abyaneh, Liheng Ma, Rui Heng Yang 等 8 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08156v1
 
-Robotic manipulation often requires remembering information that is no longer visible, such as an object's location before occlusion or the order of a demonstrated action sequence. A large vision-language planner can read this history, but calling it before every action chunk is slow and costly.
+World-action models adapt pretrained video generators, and vision-language-action models build on pretrained vision-language backbones; both tie policy architecture and inference cost to large transformers designed for generation rather than control.
 
-### [ReactWorld: Structuring Interaction Responses for Embodied Video Generation](http://arxiv.org/abs/2611.06120v1)
+### [Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks](http://arxiv.org/abs/2611.08075v1)
 
-- 作者：Hanwei Liu, Huijia Zhang, Hanzhang Wang, Guangyu Liu, Hanbei Zhan 等 9 人
-- 提交：2026-11-04 · 分类 cs.CV · arXiv:2611.06120v1
+- 作者：Mario Gomez Andreu, Michael Amir, Antonio Marino, Tianxu An, Marco Hutter 等 6 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.08075v1
 
-Embodied video world models predict scene changes caused by robot actions, yet generated object responses may remain inconsistent with task intent and contact dynamics. Critical responses in embodied scenes often concentrate in local regions and specific time intervals.
+We consider the problem of sequential task continuation, where one robot acts in a workspace that has been affected by a previous robot. Current approaches in multi-robot cooperation rely heavily on co-training or co-optimization, assumingthat the robots have access to collective interaction data during the policy trai…
 
-### [UniCompress: From Multi-LoRA Experts to One Compact Model for Edge Intelligence](http://arxiv.org/abs/2611.06075v1)
+### [AffordJEV: Affordance Grounding by Confirming Candidate Regions](http://arxiv.org/abs/2611.07896v1)
 
-- 作者：Mingkang Liu, Peipei Jiao, Weiming Meng, Tianyuan Liu, Lichen Pang 等 6 人
-- 提交：2026-11-04 · 分类 cs.AI · arXiv:2611.06075v1
+- 作者：Jincheng Li, Yutian Zhang, Jianyu Zhang, Xinshun Wang, Mengyuan Liu
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.07896v1
 
-Embodied and edge systems increasingly rely on vision-language models (VLMs) to support heterogeneous skills, yet deploying a separate task adapter for each skill while retaining a high-precision backbone creates substantial memory and management costs.
+Affordance grounding asks which visible part of an object performs a requested operation, a basic capability for embodied manipulation and human--robot interaction.
 
-### [Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation](http://arxiv.org/abs/2611.05979v1)
+### [Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents](http://arxiv.org/abs/2611.07825v1)
 
-- 作者：Zhengdong Hong, Guofeng Zhang
-- 提交：2026-11-04 · 分类 cs.RO · arXiv:2611.05979v1
+- 作者：Jisen Lei, Huizhi Liang
+- 提交：2026-11-05 · 分类 cs.AI · arXiv:2611.07825v1
 
-Manipulating diverse objects with multi-fingered dexterous hands is challenging due to the high dimensionality and complex dynamics. Human-Object Interaction (HOI) datasets provide rich knowledge about task information and embodied interactions.
+Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step.
 
-### [OdorSpaces: Visual-Olfactory Embodied Navigation in 3D Environments](http://arxiv.org/abs/2611.05738v1)
+### [AffectiveVLA: Safe and Intent-Aware VLA Control for Human-Humanoid Social Interaction](http://arxiv.org/abs/2611.07712v1)
 
-- 作者：Changyeon Lee, Kelin Yu, Zheng Wei, Shuna Ni, Ruohan Gao
-- 提交：2026-11-03 · 分类 cs.RO · arXiv:2611.05738v1
+- 作者：Nikita Kuzmin, Georgii Demianchuk, Mariya Lezina, Yara Mahmoud, Iana Zhura 等 7 人
+- 提交：2026-11-05 · 分类 cs.RO · arXiv:2611.07712v1
 
-Olfaction provides critical information about airborne chemical cues, yet it remains largely underexplored in embodied AI, with limited prior machine olfaction work focusing primarily on semantic odor perception.
+Social touch interactions, such as handshakes, fist bumps, and hugs, require humanoid robots to infer human intent, generate contact-rich motions, and maintain safe physical contact. We present AffectiveVLA, an intent-gated Vision-Language-Action (VLA) pipeline deployed on a Unitree G1 humanoid with dexterous hands.
 
 ---
 
