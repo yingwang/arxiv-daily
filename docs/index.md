@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-11-06
+# arXiv 每日摘要 · 2026-11-07
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -24,34 +24,6 @@ The arithmetic merging of weights from multiple task-specific models fine-tuned 
 - 提交：2026-11-05 · 分类 cs.CV · arXiv:2611.07398v1
 
 Single image dehazing requires recovering scene radiance from visual responses that are weakened and veiled by participating media. Existing methods either invert explicit scattering variables, which can be unstable under complex scenes, or learn direct restoration mappings, which often discard the physical organizatio…
-
-### [PixelSpline: Continuous Space-Time Video Super-Resolution via Endpoint-Anchored Shared Pixel Trajectories](http://arxiv.org/abs/2611.06870v1)
-
-- 作者：Wanqi Yuan, Nianyi Li
-- 提交：2026-11-04 · 分类 cs.CV · arXiv:2611.06870v1
-
-Existing continuous space-time video super-resolution methods often infer motion from only two endpoint frames and model the two motion directions independently, making them vulnerable to ambiguous correspondence and inconsistent trajectories.
-
-### [Unaligned Image Guided Denoising via Cross-modal Conditional Flow Matching](http://arxiv.org/abs/2611.06422v1)
-
-- 作者：Runmin Zhang, Linshan Li, Si-Yuan Cao, Zhu Yu, Lingyu Zhu 等 7 人
-- 提交：2026-11-04 · 分类 cs.CV · arXiv:2611.06422v1
-
-This work presents UGD-FM, a novel unaligned image guided denoising framework based on cross-modal conditional flow matching. Unlike previous approaches that assume spatially aligned inputs or only handle small-baseline rectified pairs, we address a more challenging setting where severe target noise and large-range two…
-
-### [UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling](http://arxiv.org/abs/2611.06042v1)
-
-- 作者：Jingbo Lin, Zhilu Zhang, Fan Li, Renjing Pei, Wenbo Li 等 8 人
-- 提交：2026-11-04 · 分类 cs.CV · arXiv:2611.06042v1
-
-Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored. Increasing backbone depth and width can lead to performance saturation, while degradation-aware specialization depends on accurate degradation estimation and is vulnerable to err…
-
-### [ReTailor: A Residual Feature Tailoring Framework for Real-Time Cross-Sensor Pansharpening Adaptation](http://arxiv.org/abs/2611.05811v1)
-
-- 作者：Jing-Ze Liang, Wei-Jie Xiao, Zi-Han Cao, Yang-Dong Li, Tian-Yi Hu 等 6 人
-- 提交：2026-11-04 · 分类 cs.CV · arXiv:2611.05811v1
-
-Recent pansharpening models achieve strong fusion performance on trained sensors, yet often generalize poorly to unseen sensors. Existing cross-sensor adaptation is limited by target-sensor retraining, which requires target-sensor training pairs and a dedicated training stage, and by per-image zero-shot adaptation, whi…
 
 ## 大语言模型
 
@@ -227,4 +199,4 @@ Social touch interactions, such as handshakes, fist bumps, and hugs, require hum
 
 ---
 
-本期共收录 31 篇。
+本期共收录 27 篇。
