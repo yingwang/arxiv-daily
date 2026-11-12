@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-11-11
+# arXiv 每日摘要 · 2026-11-12
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -24,41 +24,6 @@ Flow-matching models can produce high-quality image restorations, but their lear
 - 提交：2026-11-10 · 分类 cs.CV · arXiv:2611.13911v1
 
 Natural fractures (NFs) and drilling-induced tensile fractures (DITFs) in acoustic image logs provide insights into rock mass structure and in situ stress, but manual characterization is time-consuming. Deep learning can automate this task, although expert-labeled data are scarce.
-
-### [Just Image Transformers with Late-Stage Pixel Refinement](http://arxiv.org/abs/2611.13120v1)
-
-- 作者：Denis Lukovnikov, Andreas Müller, Asja Fischer
-- 提交：2026-11-09 · 分类 cs.CV · arXiv:2611.13120v1
-
-Recent work on latent-free diffusion transformers has demonstrated the feasibility of training image generators without a latent VAE. This avoids compression artifacts from the VAE and simplifies the training pipeline.
-
-### [SpatialSR: Spatial Resolution-Centric Pipeline for Arbitrary-Scale Remote Sensing Super-Resolution](http://arxiv.org/abs/2611.13046v1)
-
-- 作者：Yan Zhang, Runfeng Luo, Liangke Gao, Lin Yuan, Bin Xiao 等 6 人
-- 提交：2026-11-09 · 分类 cs.CV · arXiv:2611.13046v1
-
-Although remote sensing image arbitrary-scale super-resolution (RSI-ASSR) methods support reconstruction at arbitrary or continuous scales, they predominantly condition on the relative scale factor and have not sufficiently investigated the absolute spatial resolution itself as a reconstruction prior, thereby disregard…
-
-### [Single Image Super-Resolution via Semantic Prompt and Cross-Modal Training on Content Area](http://arxiv.org/abs/2611.12025v1)
-
-- 作者：Xiao Tan
-- 提交：2026-11-09 · 分类 cs.CV · arXiv:2611.12025v1
-
-Enhancing image quality through super-resolution is crucial in image and video processing. While contemporary deep learning models, such as CNNs and Transformers, excel in pixel-level enhancements, they often overlook the rich semantic context within images.
-
-### [End-to-End Joint Training of Super-Resolution and Compression Artifact Removal for Industrial Machine Vision](http://arxiv.org/abs/2611.11831v1)
-
-- 作者：Dang BuiDinh, Sang NguyenQuang, Anh NguyenPhuong, Wen-Hsiao Peng, Xiem HoangVan
-- 提交：2026-11-09 · 分类 cs.CV · arXiv:2611.11831v1
-
-In industrial machine vision, images captured by edge devices are often downsampled and compressed to reduce bandwidth, introducing resolution loss and compression artifacts that severely degrade the performance of downstream tasks, such as defect detection.
-
-### [Preserving Cultural Records: A Large-Scale Benchmark and Visual-Prior Routing Network for Ancient Book Image Restoration](http://arxiv.org/abs/2611.13010v1)
-
-- 作者：Shumin Fan, Tianyu Song, Hongming Chen, Xiaodong Zhou, Xiang Chen
-- 提交：2026-11-09 · 分类 cs.CV · arXiv:2611.13010v1
-
-Ancient books preserve invaluable cultural heritage, yet their images often suffer from complex degradations caused by long-term ageing, environmental exposure, and physical damage.
 
 ## 大语言模型
 
@@ -225,13 +190,6 @@ Egocentric human video (EHV) records close-range hand-object interaction (HOI) a
 
 Vision-language models (VLMs) are increasingly used as automated judges for multimodal and embodied tasks, yet aggregate accuracy or consistency alone does not reveal whether a judge changes its verdict for the right reason.
 
-### [How Much of Your VLA Is kNN](http://arxiv.org/abs/2611.13160v1)
-
-- 作者：Denis Grachev, Damien LaRocque, Omar Moured
-- 提交：2026-11-09 · 分类 cs.RO · arXiv:2611.13160v1
-
-Vision-language-action (VLA) models now exceed 95% success on the LIBERO simulation benchmark, yet it remains unclear how much of this performance requires generalization beyond the training demonstrations.
-
 ---
 
-本期共收录 32 篇。
+本期共收录 26 篇。
