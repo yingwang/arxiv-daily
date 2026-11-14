@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-11-13
+# arXiv 每日摘要 · 2026-11-14
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -38,27 +38,6 @@ Video deraining is challenging due to rain streaks, occlusions, and atmospheric 
 - 提交：2026-11-12 · 分类 cs.CV · arXiv:2611.16269v1
 
 Distinguishing different heat sources in low-resolution infrared (IR) images is inherently difficult, as multiple thermal emitters often collapse into ambiguous and overlapping responses.
-
-### [Real Pairs Are Not Enough: Physically Anchored Supervision for Volumetric CT Super-Resolution](http://arxiv.org/abs/2611.15514v1)
-
-- 作者：Haoran Liu, Zipei Yan, Mingzhe Liu, Jizhou Li, Guibin Zan
-- 提交：2026-11-11 · 分类 cs.CV · arXiv:2611.15514v1
-
-Volumetric CT super-resolution (SR) models are commonly trained on synthetic or physically acquired pairs of low-resolution (LR) and high-resolution (HR) volumes.
-
-### [WaveFlow-UIE: A Single-Pipeline Wavelet-Domain Flow Model for Efficient Underwater Image Restoration](http://arxiv.org/abs/2611.15457v1)
-
-- 作者：Abdulaziz Alfaraj, Mohammed Al Naser, Hassan Al Nasser, Muzammil Behzad
-- 提交：2026-11-11 · 分类 cs.CV · arXiv:2611.15457v1
-
-Underwater image restoration remains challenging because color distortion, scattering, and detail loss affect low- and high-frequency image components differently. Recent diffusion-based methods have shown strong restoration quality, but often rely on multi-stage pipelines and costly iterative refinement.
-
-### [Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning](http://arxiv.org/abs/2611.15449v1)
-
-- 作者：Jaeseong Lee, Jinwoo Kim, Jinho Jeong, Seon Joo Kim
-- 提交：2026-11-11 · 分类 cs.CV · arXiv:2611.15449v1
-
-Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone.
 
 ## 大语言模型
 
@@ -218,20 +197,6 @@ Navigation agents use a large language model (LLM) planner to call a vision-lang
 
 Generating diverse robot videos requires control over scene geometry, robot motion, and viewpoints. End-to-end video generation offers limited direct access to these variables, making targeted edits and reuse across tasks difficult.
 
-### [MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes](http://arxiv.org/abs/2611.15937v1)
-
-- 作者：Richard Shi, Mohammad Mahdavian, Mehrdad Momeni Zadeh, Mohammed Elmahgiubi, Amir Rasouli
-- 提交：2026-11-11 · 分类 cs.RO · arXiv:2611.15937v1
-
-Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet most rely primarily on 2D visual observations and language instructions, leaving scene geometry and obstacle relationships to be inferred implicitly.
-
-### [What World Model Does Active Object Search Need? A Study under Imperfect Detection](http://arxiv.org/abs/2611.15689v1)
-
-- 作者：Kyeongryeol Go
-- 提交：2026-11-11 · 分类 cs.RO · arXiv:2611.15689v1
-
-In active object search, a robot must decide where to look and when to stop. Imperfect detection complicates both decisions: a non-detection may indicate occlusion, an out-of-view target, or a false negative, while a detection may be a false positive.
-
 ---
 
-本期共收录 32 篇。
+本期共收录 27 篇。
