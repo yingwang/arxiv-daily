@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-11-20
+# arXiv 每日摘要 · 2026-11-21
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -24,62 +24,6 @@ Real-time streaming video generation has gained rapid momentum in live content c
 - 提交：2026-11-19 · 分类 cs.CV · arXiv:2611.25934v1
 
 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but Gaussian rasterization attenuates fine-scale scene structure through the projected covariance of each primitive.
-
-### [PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration](http://arxiv.org/abs/2611.24915v1)
-
-- 作者：Zhaocheng Yu, Kui Jiang, Jing Cao, Yiang Chen, Xiaocheng Feng 等 7 人
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.24915v1
-
-Agentic image restoration composes operations to handle mixed degradations, yet its toolbox often requires storing multiple restoration networks. We propose PrismRestore, which constructs a compact bank of callable restoration actions from a single frozen all-in-one model.
-
-### [Joint Image Denoising and Interpolation via Mixed Graph Filtering](http://arxiv.org/abs/2611.24242v1)
-
-- 作者：Gene Cheung, Niruhan Viswarupan, Romisaa Elsaidy
-- 提交：2026-11-18 · 分类 eess.IV · arXiv:2611.24242v1
-
-Images often require both denoising and interpolation, yet treating the two tasks separately is suboptimal: interpolation introduces correlated noise that complicates subsequent denoising, while denoising may remove image details useful for interpolation.
-
-### [DetailScale-SR: Decoupling Restoration and Continuous Detail Control for Real-World Super-Resolution](http://arxiv.org/abs/2611.24212v1)
-
-- 作者：Shengchuan Gao, Zhongjie Duan, Yingda Chen, Jingjing Chen
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.24212v1
-
-Real-world image super-resolution often seeks the most detailed plausible reconstruction, although more detail is not always desirable. The same degraded image may require restrained restoration, faithful reconstruction, or enhanced visual detail according to user intent.
-
-### [Gaussian Primitive Fusion for Any-Resolution Multimodal Images](http://arxiv.org/abs/2611.24164v1)
-
-- 作者：Baoshuo Cai, Xinrui Jiang, Bing Cao
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.24164v1
-
-Multimodal image fusion integrates complementary observations from different modalities into a unified representation. Existing methods typically estimate modality contributions on a common discrete grid.
-
-### [From Restoration to Redrawing: Revitalizing Ancient Chinese Characters by SVG Code Generation and Editing](http://arxiv.org/abs/2611.24084v1)
-
-- 作者：Weiguang Zhang, Linhua Dong, Bin Dong, Shanshan Jiang, Maizhen Ning 等 12 人
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.24084v1
-
-Hanjian manuscripts written on Han Dynasty bamboo and wooden slips are invaluable heritage of ancient Chinese writing but suffer from damaged ink and incomplete strokes. Existing image-to-image restoration methods may alter observed strokes and offer limited control over stroke geometry.
-
-### [STAR++: A Physical-Aware Benchmark and Framework for Astronomical Super-Resolution across Multiple Filters](http://arxiv.org/abs/2611.24023v1)
-
-- 作者：Guohang Zhuang, Jiaze Li, Kuo-cheng Wu, Hao Du, Jinyang Huang 等 8 人
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.24023v1
-
-Astronomical super-resolution (ASR) aims to reconstruct high-resolution star fields from low-resolution telescope observations across multiple filters for astrophysical analysis.
-
-### [Beyond Additive Composition: Interventional Modeling of State-Dependent Cross-Degradation Responses for Composite Image Restoration](http://arxiv.org/abs/2611.23889v1)
-
-- 作者：Zongda Tang, Jie Feng, Wenda Zhao, Mingtao Feng, Yuping Liang 等 7 人
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.23889v1
-
-Composite image restoration aims to recover images corrupted by multiple coexisting degradations. Existing methods predominantly decompose composite corruptions into individual factors, relying on these isolated priors to guide restoration.
-
-### [CoScan: Multi-Scale Content-Adaptive Space-Filling Scans for Causal State-Space Image Restoration](http://arxiv.org/abs/2611.23717v1)
-
-- 作者：Wei Dong, Terry Ji, Yan Min, Shahram Shirani, Jun Chen 等 6 人
-- 提交：2026-11-18 · 分类 cs.CV · arXiv:2611.23717v1
-
-Selective state-space models (SSMs) have recently shown strong potential for efficient image restoration. A central difficulty, however, is that a 2D feature map typically needs to be linearized into a 1D token sequence for causal state-space updates, making restoration performance highly sensitive to the imposed scan…
 
 ## 大语言模型
 
@@ -255,4 +199,4 @@ Vision-language-action (VLA) models enable robots to perform diverse tasks from 
 
 ---
 
-本期共收录 35 篇。
+本期共收录 27 篇。
