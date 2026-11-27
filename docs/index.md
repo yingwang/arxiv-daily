@@ -1,4 +1,4 @@
-# arXiv 每日摘要 · 2026-11-26
+# arXiv 每日摘要 · 2026-11-27
 
 > 自动抓取，方向：图像复原 / 低层视觉、大语言模型、具身智能。数据来自 arXiv API，仅收录最近两天提交的论文，标题与摘要保留英文原文。
 
@@ -38,55 +38,6 @@ Multi-scale architectures are widely adopted in all-in-one image restoration (AI
 - 提交：2026-11-25 · 分类 cs.CV · arXiv:2611.33567v1
 
 Implicit neural representations (INRs) capture global low-frequency structure during the early stage of training and then refine localized high-frequency details, afterwards. However, standard optimizers are agnostic to the coarse-to-fine learning behavior of INRs.
-
-### [Recovering What Matters, Transferring Only What Is Reliable: Toward Precise Reference-Based Super-Resolution](http://arxiv.org/abs/2611.33455v1)
-
-- 作者：Sihan Ji, Wenxin Chen, Yue Shi, Jiezhang Cao
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.33455v1
-
-Reference-based super-resolution (RefSR) aims to recover missing details from high-quality references. However, existing methods face two fundamental challenges. First, perceptual plausibility does not guarantee content fidelity.
-
-### [Measuring and Predicting Image-Token Repair Boundaries in Vision-Language Models](http://arxiv.org/abs/2611.33388v1)
-
-- 作者：Vishal Bhutani, Prasang Gupta, Sumanth Chundru, Kevin Paul
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.33388v1
-
-Degraded images make vision-language models answer wrongly. Using synthetic paired blur, noise, and low light, we trace which clean image states can still repair those answers from the vision encoder through the language model.
-
-### [SHARPnP: Self-Supervised and Plug-and-Play Hyperspectral Super-Resolution from Real Noisy Unaligned Camera Measurements](http://arxiv.org/abs/2611.33032v1)
-
-- 作者：Mohamad Jouni, Brayan Monroy, Jorge Bacca, Mauro Dalla Mura
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.33032v1
-
-Affordable snapshot hyperspectral cameras capture spectral images in a single exposure but suffer from limited spatial resolution and sensor noise. Low-cost RGB cameras provide fine visible details to guide NIR reconstruction, but introduce spatially varying cross-camera misalignment.
-
-### [HazeFlux: Few-Step Generative Priors for Real-World Image Dehazing](http://arxiv.org/abs/2611.32632v1)
-
-- 作者：Yunong Liu, Danna Xue, Javier Vazquez-Corral
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.32632v1
-
-Real-world single-image dehazing suffers from severe domain shifts, as paired real data is scarce and models trained on synthetic haze generalize poorly to real-world haze.
-
-### [TDD: Target-Discrepancy Distillation for Underwater Image Enhancement](http://arxiv.org/abs/2611.32467v1)
-
-- 作者：Zefan Feng, Zhaocheng Yu, Laibin Chang, Kui Jiang, Junjun Jiang 等 6 人
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.32467v1
-
-Underwater degradation changes image appearance and can compromise the semantic cues used to guide enhancement. Identifying scene content alone does not explicitly specify the appearance to recover or the input-dependent changes associated with that target.
-
-### [BEACON: Learning Observation-Conditioned Starting Points for Guided Conditional Flow Matching in Microscopy](http://arxiv.org/abs/2611.32406v1)
-
-- 作者：Anirban Ray, Florian Jug
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.32406v1
-
-Fluorescence microscopy drives much of modern life science, but accessible imaging setups often yield images degraded by out-of-focus light, limited resolution, and strong signal-dependent noise.
-
-### [Adaptive and Detection-Aware Super-Resolution for Small Object Detection](http://arxiv.org/abs/2611.32394v1)
-
-- 作者：Cezica-Elena Luncanu, Stelian Spînu
-- 提交：2026-11-24 · 分类 cs.CV · arXiv:2611.32394v1
-
-Image super-resolution aims to reconstruct a high-resolution image from a low-resolution input and is relevant for surveillance, satellite imagery, medical imaging, and object detection.
 
 ## 大语言模型
 
@@ -262,4 +213,4 @@ We present HoloBrain-0.5, a family of vision-language-action (VLA) models for ma
 
 ---
 
-本期共收录 36 篇。
+本期共收录 29 篇。
